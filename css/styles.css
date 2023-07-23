@@ -140,10 +140,14 @@ a:active {
 }
 
 #page-preloader .load {
-    width: 50%;
-    height: 60%;
+    width: 30%;
+    height: 30%;
 
-
+    background-image: url('../images/meu_back.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    animation: xray2 0.15s 2;
 }
 
 .page,
@@ -512,6 +516,10 @@ footer p {
     font-family: 'Inconsolata', sans-serif;
 }
 
+.navbar-brand {
+    color: #303030;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 1920px) {}
@@ -778,6 +786,20 @@ footer p {
 
     100% {
         opacity: 0;
+    }
+}
+
+@keyframes xray2 {
+    0% {
+        background-image: url(../images/meu_back.png);
+    }
+
+    50% {
+        background-image: url(../images/meu_front.png);
+    }
+
+    100% {
+        background-image: url(../images/meu_back.png);
     }
 }
 
