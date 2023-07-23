@@ -1,2 +1,2 @@
-# meu-games.github.io
+# MEU Games
 Company website
