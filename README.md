@@ -1,2 +1,0 @@
-# MEU Games
-Company website
