@@ -188,6 +188,10 @@ a:active {
     font-family: 'Agdasima', sans-serif;
 }
 
+.after-eye {
+    letter-spacing: 0cm;
+}
+
 .logo {
     position: relative;
     min-width: 92px;
