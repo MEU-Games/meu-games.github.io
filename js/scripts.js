@@ -2,14 +2,13 @@ $(window).on('load', function () {
     $('body').removeClass("loading");
     var $preloader = $('#page-preloader'),
         $cat = $preloader.find('.load');
+
     $cat.delay(600).fadeOut();
     $preloader.delay(600).fadeOut('fast');
 });
 
 $(document).ready(function () {
-
     animateEye();
-
 });
 
 function animateEye() {
