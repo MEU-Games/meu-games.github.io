@@ -188,15 +188,6 @@ a:active {
     font-family: 'Agdasima', sans-serif;
 }
 
-.after-eye {
-    letter-spacing: 0.007em;
-}
-
-.before-eye {
-    margin-left: -8px;
-    letter-spacing: 0;
-}
-
 .logo {
     position: relative;
     min-width: 92px;
@@ -219,13 +210,9 @@ a:active {
     z-index: 1;
 }
 
-
-
 .xray:hover .logo-part:first-child {
     animation: xray 0.15s 2;
 }
-
-
 
 .company-name {
     width: 100%;
@@ -250,6 +237,15 @@ svg {
     text-transform: uppercase;
     line-height: 200px;
     letter-spacing: 10px;
+}
+
+.company-name>div.after-eye {
+    letter-spacing: 0.007em;
+}
+
+.company-name>div.before-eye {
+    margin-left: -8px;
+    letter-spacing: 0;
 }
 
 .eye-container {
