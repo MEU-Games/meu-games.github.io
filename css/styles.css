@@ -240,11 +240,11 @@ svg {
 }
 
 .company-name>div.after-eye {
-    letter-spacing: -0.028em;
+    letter-spacing: -0.037em;
 }
 
 .company-name>div.before-eye {
-    margin-left: -22px;
+    margin-left: -13px;
     letter-spacing: 0;
 }
 
