@@ -50,6 +50,8 @@
 body,
 html {
     overscroll-behavior-y: contain;
+    overflow: hidden;
+    /* Hide scrollbars */
     width: 100%;
     height: 100%;
 }
